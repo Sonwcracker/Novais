@@ -11,15 +11,6 @@
     margin: 40px;
 }
 
-.card_cardapio {
-    background-color: #847db1;
-    width: 90%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px;
-}
 
 .img_card{
     justify-content: center;
@@ -54,9 +45,24 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-p{
-    font-weight: bold;
+
+.textos{
+    color: black;
+    align-items: center; 
+    justify-content: center; 
+    display: flex;
+    margin-left: 20px; 
+    font-size: 17px;
 }
+
+
+.delivery {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 
 .card_verde_menta {
