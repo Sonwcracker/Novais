@@ -1,6 +1,4 @@
 .card {
-
-    flex: 1;
     width: 200px;
     height: 250px;
     display: flex;
@@ -10,61 +8,6 @@
     border-radius: 8px;
     margin: 40px;
 }
-
-
-.img_card{
-    justify-content: center;
-    border-radius: 8px;
-}
-
-.container{
-    background-color: #9f9bb6;
-    color: #555857;
-    margin: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card-2{
-    background: #9f9bb6;
-    position: relative;
-    flex: 1;
-    max-width: 50%;
-    height: 200px;
-    margin: 20px;
-    border-radius: 5px;
-    display: flex;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-
-.textos{
-    color: black;
-    align-items: center; 
-    justify-content: center; 
-    display: flex;
-    margin-left: 20px; 
-    font-size: 17px;
-}
-
-
-.delivery {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-
-
 .card_verde_menta {
     background-color: #e0fcc2;
 }
@@ -88,4 +31,7 @@
 }
 .card_aqua {
     background-color: #d8fff0;
+}
+.card_laranja {
+    background-color: #fceaa6;
 }

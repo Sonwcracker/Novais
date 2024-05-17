@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
+:root {
+    --color-neutral-0: #e27c5d;
+    --color-neutral-10: #e27c5d;
+    --color-neutral-30: white;
+    --color-neutral-40: black;
+
+}
+
 * {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -11,7 +19,7 @@
 
 footer {
     width: 100%;
-    color: black;
+    color: var(--color-neutral-40);
 }
 
 .footer-link {
@@ -19,7 +27,7 @@ footer {
 }
 
 #footer_content {
-    background-color:#e27c5d;
+    background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 3.5rem;
@@ -46,7 +54,7 @@ h1{
     justify-content: center;
     height: 2.5rem;
     width: 2.5rem;
-    color: black;
+    color: var(--color-neutral-40);
     border-radius: 50%;
     transition: all 0.4s;
 }
@@ -83,7 +91,7 @@ h3{
 }
 
 .footer-list .footer-link {
-    color: white;
+    color: var(--color-neutral-30);
     transition: all 0.4s;
 }
 
